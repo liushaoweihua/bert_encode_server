@@ -13,8 +13,11 @@ from __future__ import division
 from __future__ import print_function
 
 
-from ..server import BertServer
-from ..server.helper import  get_run_args
+import sys
+sys.path.append("..")
+
+from server import BertServer
+from server.helper import  get_run_args
 
 
 if __name__ == "__main__":

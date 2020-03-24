@@ -1,4 +1,4 @@
-nohup python ../feature_server.py \
+nohup python feature_server.py \
   -model_dir ~/pretrained_lm/bert_wwm_chinese/ \
   -ckpt_name bert_model.ckpt \
   -config_name bert_config.json \
@@ -10,5 +10,5 @@ nohup python ../feature_server.py \
   -http_max_connect 40 \
   -max_seq_len 35 \
   -no_special_token \
-  -cpu >> sent_logs.out &
+  -cpu > sent.log &
 #  -albert \
