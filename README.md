@@ -31,7 +31,7 @@
 ## 字特征提取（服务端）
 
 ```bash
-cd char_server
+cd examples
 bash char_server.sh
 ```
 
@@ -44,7 +44,7 @@ bash char_server.sh
 ## 句特征提取（服务端）
 
 ```bash
-cd sent_server
+cd examples
 bash sent_server.sh
 ```
 
